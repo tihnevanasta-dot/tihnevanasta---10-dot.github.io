@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+     <title>Однорукий бандит</title>
+</head>
+<body>
+      <div class="container">
+        <h1>Однорукий бандит</h1>
+        
+        <div class="player-info">
+            <p>Гравець: <span id="player-name">-</span></p>
+        </div>
+        
+        <div class="game-info">
+            Залишилось спроб: <span id="attempts-left">3</span>
+        </div>
+        
+        <div class="slot-machine">
+            <div class="reel">
+                <div class="reel-items" id="reel1"></div>
+            </div>
+            <div class="reel">
+                <div class="reel-items" id="reel2"></div>
+            </div>
+            <div class="reel">
+                <div class="reel-items" id="reel3"></div>
+            </div>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="controls">
+            <button id="spin-btn">Крутити!</button>
+            <button id="new-game-btn">Нова гра</button>
+        </div>
+    </div>
+    </body>
+</html>
